@@ -14,8 +14,11 @@ if($_POST){
     $headmail = 'Email: info@agroventuresplantations.com';
     $product = 'Product: Agro Triple Benefit Plan';
     $inves = $_POST['inves'];
-    $invesw = ' (Rupees Eight hundred foty three thousand & seven hundred fifty Only)';
-    $inves2 = '+ Rs.6,000/- (Land Transfer Stamp Fee)';
+    $invesw1 = '(Two Million Five Hundred Thousand Rupees Only)';
+    $invesw2 = '(Five Million Rupees Only)';
+    $invesw3 = '(Seven Million Five Hundred Thousand Rupees Only)';
+    $invesw4 = '(Ten Million Rupees Only)';
+    $invesw5 = '(Twenty Million Rupees Only)';
     $term = '5 Years';
     $payterm = 'Single';
     $paymode = 'Full Payment';
