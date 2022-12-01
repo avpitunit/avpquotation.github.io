@@ -1050,7 +1050,7 @@ input[type="submit"]:hover{
              <!-------form (Name with Initials)------>
              
              <select name="inves" class="form-control selectpicker" required>
-                 <option value="" >-Select Total Investment-</option>
+                 <option value="" >--Select Total Investment--</option>
                     <option>Rs.2,500,000</option>
                     <option>Rs.5,000,000</option>
                     <option >Rs.7,500,000</option>
