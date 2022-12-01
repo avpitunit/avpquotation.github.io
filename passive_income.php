@@ -127,7 +127,7 @@ if($_POST){
     $pdf->Ln(10);
 
     // Product Type
-
+    $pdf -> SetX(20);
     $pdf -> SetFontSize(10);
     $w = $pdf -> GetStringWidth($product)+6;
     $pdf -> Cell(74,10, $product, 0, 0, 'C');
@@ -198,7 +198,7 @@ if($_POST){
     $pdf -> Cell(100,10, $ben, 0, 0, 'L');
     $pdf -> Ln(2);
     $pdf -> Cell(190,10, '________________________________________________________________________________________________', 0, 0, 'C');
-    $pdf->Ln(10);
+    $pdf->Ln(8);
 
     // Total Investment
 
@@ -245,7 +245,7 @@ if($_POST){
    // $pdf -> SetFontSize(10);
     $pdf -> Ln(5);
     $pdf -> Cell(190,10, '________________________________________________________________________________________________', 0, 0, 'C');
-    $pdf->Ln(10);
+    $pdf->Ln(8);
     
     // Term
 
@@ -254,9 +254,9 @@ if($_POST){
     $pdf -> Cell(65,10, 'Term                                               :', 0, 0, 'L');
     $pdf -> SetX(90);
     $pdf -> Cell(50,10, $term, 0, 0, 'L');
-    $pdf -> Ln(2);
+    $pdf -> Ln(5);
     $pdf -> Cell(190,10, '________________________________________________________________________________________________', 0, 0, 'C');
-    $pdf->Ln(10);
+    $pdf->Ln(8);
 
     // Paying Term
 
@@ -265,26 +265,26 @@ if($_POST){
     $pdf -> Cell(65,10, 'Paying term                                   :', 0, 0, 'L');
     $pdf -> SetX(90);
     $pdf -> Cell(50,10, $payterm, 0, 0, 'L');
-    $pdf -> Ln(2);
+    $pdf -> Ln(5);
     $pdf -> Cell(190,10, '________________________________________________________________________________________________', 0, 0, 'C');
-    $pdf->Ln(10);
+    $pdf->Ln(8);
 
     // Mode of payment
 
     $pdf -> SetFontSize(10);
     $pdf -> SetX(25);
-    $pdf -> Cell(65,10, 'Mode of Payment                            :', 0, 0, 'L');
+    $pdf -> Cell(65,10, 'Mode of Payment                             :', 0, 0, 'L');
     $pdf -> SetX(90);
     $pdf -> Cell(50,10, $paymode, 0, 0, 'L');
-    $pdf -> Ln(2);
+    $pdf -> Ln(5);
     $pdf -> Cell(190,10, '________________________________________________________________________________________________', 0, 0, 'C');
-    $pdf->Ln(5);
+    $pdf->Ln(8);
 
     // Guaranteed Maturity
 
     $pdf -> SetFontSize(10);
     $pdf -> SetX(25);
-    $pdf -> Cell(65,10, 'Guaranteed Maturity       :', 0, 0, 'L');
+    $pdf -> Cell(65,10, 'Guaranteed Maturity                       :', 0, 0, 'L');
 
     if($inves=='Rs.2,500,000'){
 
@@ -340,15 +340,15 @@ if($_POST){
    // $pdf -> SetFontSize(8);
    // $pdf -> Cell(100,20, $benpec1,0,0,'L');
     $pdf -> SetFontSize(10);
-    $pdf -> Ln(8);
+    $pdf -> Ln(5);
     $pdf -> Cell(190,10, '________________________________________________________________________________________________', 0, 0, 'C');
-    $pdf->Ln(5);
+    $pdf->Ln(8);
 
     // Illustrated Maturity
 
     $pdf -> SetFontSize(10);
     $pdf -> SetX(25);
-    $pdf -> Cell(65,10, 'Illustrated Maturity              :', 0, 0, 'L');
+    $pdf -> Cell(65,10, 'Illustrated Maturity                         :', 0, 0, 'L');
 
     $pdf -> SetX(90);
     $pdf -> Cell(65,10, $inves, 0, 0, 'L');
@@ -395,19 +395,19 @@ if($_POST){
   //  $pdf -> SetX(90);
   //  $pdf -> SetFontSize(8);
   //  $pdf -> Cell(100,15, $fgben1,0,0,'L');
-    $pdf ->Ln(1);
+   // $pdf ->Ln(1);
    // $pdf -> SetX(90);
    // $pdf -> SetFontSize(8);
    // $pdf -> Cell(100,20, $fgbenpes,0,0,'L');
     $pdf -> SetFontSize(10);
-    $pdf -> Ln(8);
+    $pdf -> Ln(5);
     $pdf -> Cell(190,10, '________________________________________________________________________________________________', 0, 0, 'C');
-    $pdf->Ln(5);
+    $pdf->Ln(8);
 
     // Extent of the land
     $pdf -> SetX(25);
     $pdf -> SetFontSize(10);
-    $pdf -> Cell(65,10, 'Extent of the land                         :', 0, 0, 'L');
+    $pdf -> Cell(65,10, 'Extent of the land                             :', 0, 0, 'L');
     $pdf -> SetX(90);
 
     if($inves=='Rs.2,500,000'){
@@ -484,7 +484,7 @@ if($_POST){
     // Land Reservation Amount
     $pdf -> SetX(25);
     $pdf -> SetFontSize(10);
-    $pdf -> Cell(65,10, 'Land Reservation Amount      :', 0, 0, 'L');
+    $pdf -> Cell(65,10, 'Land Reservation Amount              :', 0, 0, 'L');
     $pdf -> SetX(90);
 
     if($inves=='Rs.2,500,000'){
@@ -513,7 +513,7 @@ if($_POST){
   //  $pdf -> Cell(50,10, $vanplantnum, 0, 0, 'L');
     $pdf -> Ln(5);
     $pdf -> Cell(190,10, '________________________________________________________________________________________________', 0, 0, 'C');
-    $pdf->Ln(5);
+    $pdf->Ln(8);
 
     // Security
     $pdf -> SetX(25);
