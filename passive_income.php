@@ -998,6 +998,24 @@ input[type="text"] {
     line-height: 1.3;
     margin: 0 0 5px;
 }
+.form-control{
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #333;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    float: none;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    height: 38px;
+    width: 100%;
+    line-height: 1.3;
+    margin: 0 0 5px;
+}
+
 input[type="submit"]{
     background-color: #0a9e00;
     color: #fff;
@@ -1030,20 +1048,16 @@ input[type="submit"]:hover{
                 <input type="text" name="ben" placeholder="Name of Beneficiary" required>
             
              <!-------form (Name with Initials)------>
-             <div class="col-md-4 selectContainer">
-                <div class="input-group">
-        
              
              <select name="inves" class="form-control selectpicker" required>
-                 <option value=" " ></option>
+                 <option value="" >-Select Total Investment-</option>
                     <option>Rs.2,500,000</option>
                     <option>Rs.5,000,000</option>
                     <option >Rs.7,500,000</option>
                     <option >Rs.10,000,000</option>
                     <option >Rs.20,000,000</option>
             </select>
-            </div>
-                </div>
+            
             <br><br>
                 <input type="submit" value="Create Quotation">    
                 </form>
