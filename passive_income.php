@@ -1030,7 +1030,9 @@ input[type="submit"]:hover{
                 <input type="text" name="ben" placeholder="Name of Beneficiary" required>
             
              <!-------form (Name with Initials)------>
-
+             <div class="col-md-4 selectContainer">
+                <div class="input-group">
+        
              
              <select name="inves" class="form-control selectpicker" required>
                  <option value=" " ></option>
@@ -1039,7 +1041,10 @@ input[type="submit"]:hover{
                     <option >Rs.7,500,000</option>
                     <option >Rs.10,000,000</option>
                     <option >Rs.20,000,000</option>
-            </select><br><br>
+            </select>
+            </div>
+                </div>
+            <br><br>
                 <input type="submit" value="Create Quotation">    
                 </form>
         </div>
