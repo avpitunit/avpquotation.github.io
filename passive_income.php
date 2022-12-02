@@ -1058,7 +1058,7 @@ input[type="submit"]:hover{
                     <option >Rs.20,000,000</option>
             </select>
             
-            <br><br>
+            <br>
                 <input type="submit" value="Create Quotation">    
                 </form>
         </div>
