@@ -1060,7 +1060,8 @@ input[type="submit"]:hover{
             
             <br>
                 <input type="submit" value="Create Quotation">    
-                </form>
+                </form><br>
+                <a href="index.php"><button class="btn btn-primary">Back</button></a>
         </div>
         <div class="footer">
             

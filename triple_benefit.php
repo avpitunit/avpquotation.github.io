@@ -597,7 +597,8 @@ input[type="submit"]:hover{
                 <input type="text" name="nic" placeholder="NIC No" required>
                 <input type="text" name="ben" placeholder="Name of Beneficiary" required>
                 <input type="submit" value="Create Quotation">
-            </form>
+            </form><br>
+                <a href="index.php"><button class="btn btn-primary">Back</button></a>
         </div>
         <div class="footer">
             
