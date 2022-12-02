@@ -601,7 +601,6 @@ input[type="submit"]:hover{
                 <a href="index.php"><button class="btn btn-primary">Back</button></a>
         </div>
         <div class="footer">
-            
             <p><a href="https://agroventuresplantations.com">Agro Ventures Plantations LTD</a></p>
         </div>
     </div>
