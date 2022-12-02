@@ -497,6 +497,9 @@ if($_POST){
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>AVP QUOTATION</title>
     <Style>
      body{
@@ -598,7 +601,7 @@ input[type="submit"]:hover{
                 <input type="text" name="ben" placeholder="Name of Beneficiary" required>
                 <input type="submit" value="Create Quotation">
             </form><br>
-                <a href="index.php"><button class="btn btn-primary">Back</button></a>
+                <a href="index.php"><button type="button" class="btn btn-primary btn-lg">Back</button></a>
         </div>
         <div class="footer">
             <p><a href="https://agroventuresplantations.com">Agro Ventures Plantations LTD</a></p>
