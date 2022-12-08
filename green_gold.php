@@ -12,32 +12,34 @@ if($_POST){
     $headtel = 'Tel: +94 11-743-0250 / 0761436072';
     $headweb = 'Web: www.agroventuresplantations.com';
     $headmail = 'Email: info@agroventuresplantations.com';
-    $product = 'Product: Agro Ventures Passive Income Plan';
-    $inves = $_POST['inves'];
-    $invesw1 = '(Two Million Five Hundred Thousand Rupees Only)';
-    $invesw2 = '(Five Million Rupees Only)';
-    $invesw3 = '(Seven Million Five Hundred Thousand Rupees Only)';
-    $invesw4 = '(Ten Million Rupees Only)';
-    $invesw5 = '(Twenty Million Rupees Only)';
-    $term = '5 Years';
-    $payterm = 'Single';
-    $paymode = 'Full Payment';
-    $gm1 = 'Rs.72,916/- X 60 Months';
-    $gm1w1 = '(Rupees Seventy two thousand nine hundred & sixteen X 60 Months)';
-    $gm2 = 'Rs.145,832/- X 60 Months';
-    $gm2w2 = '(One Hundred Forty Five Thousand Eight Hundred thirty two X 60 Months)';
-    $gm3 = 'Rs.218,750/- X 60 Months';
-    $gm3w3 = '(Two Hundred Eighteen Thousand Seven Hundred Fifty X 60 Months)';
-    $gm4 = 'Rs.291,666/- X 60 Months';
-    $gm4w4 = '(Two Hundred Ninty One Thousand Six Hundred Sixty Six X 60 Months)';
-    $gm5 = 'Rs.583,333/- X 60 Months';
-    $gm5w5 = '(Five Hundred Eighty Three Thousand Three Hundred Thirty Three)';
+    $product = 'Product: Green Gold Harvest Plan';
+    $inves = 'Rs.843,750/-';
+    $invesw='(Rupees Eight hundred foty three thousand & seven hundred fifty Only)';
+    $monpay='Monthly Payment - Rs.23,437/- X 36 Months';
+    //$invesw1 = '(Two Million Five Hundred Thousand Rupees Only)';
+    //$invesw2 = '(Five Million Rupees Only)';
+    //$invesw3 = '(Seven Million Five Hundred Thousand Rupees Only)';
+    //$invesw4 = '(Ten Million Rupees Only)';
+    //$invesw5 = '(Twenty Million Rupees Only)';
+    $term = '6 Years';
+    $payterm = '3 Years';
+    $paymode = 'Monthly';
+    $gm1 = 'Rs.2,109,375/-';
+    $gm1w1 = '(Rupees Two Million One Hundred Nine Thousand Three Hundred Seventy Five)';
+    //$gm2 = 'Rs.145,832/- X 60 Months';
+    //$gm2w2 = '(One Hundred Forty Five Thousand Eight Hundred thirty two X 60 Months)';
+    //$gm3 = 'Rs.218,750/- X 60 Months';
+    //$gm3w3 = '(Two Hundred Eighteen Thousand Seven Hundred Fifty X 60 Months)';
+    //$gm4 = 'Rs.291,666/- X 60 Months';
+    //$gm4w4 = '(Two Hundred Ninty One Thousand Six Hundred Sixty Six X 60 Months)';
+    //$gm5 = 'Rs.583,333/- X 60 Months';
+    //$gm5w5 = '(Five Hundred Eighty Three Thousand Three Hundred Thirty Three)';
     //$gm1w2 = ')';
-    $illm1 = 'Rs.2,500,000/-';
-    $illm2 = 'Rs.5,000,000/-';
-    $illm3 = 'Rs.7,500,000/-';
-    $illm4 = 'Rs.10,000,000/-';
-    $illm5 = 'Rs.20,000,000/-';
+    $illm1 = 'Rs.4,000,000/- (Four Million rupees Only)';
+    //$illm2 = 'Rs.5,000,000/-';
+    //$illm3 = 'Rs.7,500,000/-';
+    //$illm4 = 'Rs.10,000,000/-';
+    //$illm5 = 'Rs.20,000,000/-';
     //$illm1w = 'Two Million & five hundred thousand rupees Only';
     //$illm2 = 'Rs.5,000,000/-'
    // $fgben1 = '(Rupees Eight hundred forty three thousand & seven hundred fifty Only)';
@@ -45,28 +47,23 @@ if($_POST){
    // $ben3 = 'Rs.2,109,375/-';
    // $ben31 = '(Rupees Two million one hundred nine thousand seven hundred & Fifty Only)';
    // $ben3pec = '(50% Annual Benifit)';
-    $exland1 = '10 Perch (security)';
-    $exland2 = '20 Perch (security)';
-    $exland3 = '40 Perch (security)';
-    $exland4 = '60 Perch (security)';
-    $exland5 = '80 Perch (security)';
-    $vanplantnum1 = '200';
-    $vanplantnum2 = '400';
-    $vanplantnum3 = '600';
-    $vanplantnum4 = '800';
-    $vanplantnum5 = '1000';
-    $security1w1 = '"10 perch lannd & 1000 sqft polytunnel as security will be ';
-    $security2w1 = '"20 perch lannd & 2000 sqft polytunnel as security will be ';
-    $security3w1 = '"40 perch lannd & 4000 sqft polytunnel as security will be ';
-    $security4w1 = '"60 perch lannd & 6000 sqft polytunnel as security will be ';
-    $security5w1 = '"80 perch lannd & 8000 sqft polytunnel as security will be ';
-    $security1w2 = 'transferred to the purchaser at the end/completion of the';
-    $security1w3 = ' pay agreement term"';
-    $lra1 = 'Rs.1,000,000/- (One Million rupees Only)';
-    $lra2 = 'Rs.2,000,000/- (Two Million rupees Only)';
-    $lra3 = 'Rs.3,000,000/- (Three Million rupees Only)';
-    $lra4 = 'Rs.4,000,000/- (Four Million rupees Only)';
-    $lra5 = 'Rs.5,000,000/- (Five Million rupees Only)';
+    $exland = '10 Perch (security)';
+    //$exland2 = '20 Perch (security)';
+    //$exland3 = '40 Perch (security)';
+    //$exland4 = '60 Perch (security)';
+    //$exland5 = '80 Perch (security)';
+    $vanplantnum = '100';
+    //$vanplantnum2 = '400';
+    //$vanplantnum3 = '600';
+    //$vanplantnum4 = '800';
+    //$vanplantnum5 = '1000';
+    $security = '"Land as security will be transferred to the purchaser at the ';
+    $security2 = 'end/ completion of the pay agreement term"';
+    $lra = 'Rs.337,500/-';
+    //$lra2 = 'Rs.2,000,000/- (Two Million rupees Only)';
+    //$lra3 = 'Rs.3,000,000/- (Three Million rupees Only)';
+    //$lra4 = 'Rs.4,000,000/- (Four Million rupees Only)';
+    //$lra5 = 'Rs.5,000,000/- (Five Million rupees Only)';
     
     $pdf = new FPDF();
     $pdf -> AddPage();
@@ -211,38 +208,22 @@ if($_POST){
 
     $pdf -> SetX(90);
     $pdf -> Cell(65,10, $inves, 0, 0, 'L');
-    $pdf ->Ln(4);
+    $pdf ->Ln(2);
     //$pdf -> SetFontSize(8);
-    if($inves=='Rs.2,500,000'){
-
     $pdf -> SetX(90);
-    $pdf -> Cell(100,10, $invesw1, 0, 0, 'L');
-    }
-    elseif($inves=='Rs.5,000,000'){
-        $pdf -> SetX(90);
-        $pdf -> Cell(100,10, $invesw2, 0, 0, 'L');   
-
-    }
-    elseif($inves=='Rs.7,500,000'){
-        $pdf -> SetX(90);
-        $pdf -> Cell(100,10, $invesw3, 0, 0, 'L');  
-    }
-    elseif($inves=='Rs.10,000,000'){
-        $pdf -> SetX(90);
-        $pdf -> Cell(100,10, $invesw4, 0, 0, 'L');
-    }
-    elseif($inves=='Rs.20,000,000'){
-        $pdf -> SetX(90);
-        $pdf -> Cell(100,10, $invesw5, 0, 0, 'L');
-    }
-   // $pdf ->Ln(1);
+    $pdf -> SetFontSize(8);
+    $pdf -> Cell(100,15, $invesw,0,0,'L');
+    $pdf -> SetX(90);
+    $pdf -> SetFontSize(8);
+    $pdf -> Cell(100,22, $monpay,0,0,'L');
+    $pdf ->Ln(1);
    // $pdf -> SetX(90);
    // $pdf -> SetFontSize(8);
    // $pdf -> Cell(100,15, $invesw,0,0,'L');
    // $pdf -> SetX(90);
    // $pdf -> SetFontSize(8);
    // $pdf -> Cell(100,22, $inves2,0,0,'L');
-   // $pdf -> SetFontSize(10);
+    $pdf -> SetFontSize(10);
     $pdf -> Ln(5);
     $pdf -> Cell(190,10, '________________________________________________________________________________________________', 0, 0, 'C');
     $pdf->Ln(8);
@@ -286,48 +267,13 @@ if($_POST){
     $pdf -> SetX(25);
     $pdf -> Cell(65,10, 'Guaranteed Maturity                       :', 0, 0, 'L');
 
-    if($inves=='Rs.2,500,000'){
-
         $pdf -> SetX(90);
         $pdf -> Cell(100,10, $gm1, 0, 0, 'L');
         $pdf -> Ln(3);
         $pdf -> SetFontSize(8);
         $pdf -> SetX(90);
         $pdf -> Cell(100,10, $gm1w1, 0, 0, 'L');
-        }
-        elseif($inves=='Rs.5,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $gm2, 0, 0, 'L');
-            $pdf -> Ln(3);
-            $pdf -> SetFontSize(8);
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $gm2w2, 0, 0, 'L');   
-    
-        }
-        elseif($inves=='Rs.7,500,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $gm3, 0, 0, 'L');
-            $pdf -> Ln(3);
-            $pdf -> SetFontSize(8);
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $gm3w3, 0, 0, 'L');  
-        }
-        elseif($inves=='Rs.10,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $gm4, 0, 0, 'L');
-            $pdf -> Ln(3);
-            $pdf -> SetFontSize(8);
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $gm4w4, 0, 0, 'L');
-        }
-        elseif($inves=='Rs.20,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $gm5, 0, 0, 'L');
-            $pdf -> Ln(3);
-            $pdf -> SetFontSize(8);
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $gm5w5, 0, 0, 'L');
-        }
+        
 
     //$pdf -> SetX(90);
    // $pdf -> Cell(100,10, $monben, 0, 0, 'L');
@@ -351,31 +297,10 @@ if($_POST){
     $pdf -> Cell(65,10, 'Illustrated Maturity                         :', 0, 0, 'L');
 
     $pdf -> SetX(90);
-    $pdf -> Cell(65,10, $inves, 0, 0, 'L');
+    $pdf -> Cell(65,10, $illm1, 0, 0, 'L');
     $pdf ->Ln(4);
     //$pdf -> SetFontSize(8);
-    if($inves=='Rs.2,500,000'){
-
-    $pdf -> SetX(90);
-    $pdf -> Cell(100,10, $invesw1, 0, 0, 'L');
-    }
-    elseif($inves=='Rs.5,000,000'){
-        $pdf -> SetX(90);
-        $pdf -> Cell(100,10, $invesw2, 0, 0, 'L');   
-
-    }
-    elseif($inves=='Rs.7,500,000'){
-        $pdf -> SetX(90);
-        $pdf -> Cell(100,10, $invesw3, 0, 0, 'L');  
-    }
-    elseif($inves=='Rs.10,000,000'){
-        $pdf -> SetX(90);
-        $pdf -> Cell(100,10, $invesw4, 0, 0, 'L');
-    }
-    elseif($inves=='Rs.20,000,000'){
-        $pdf -> SetX(90);
-        $pdf -> Cell(100,10, $invesw5, 0, 0, 'L');
-    }
+   
    // $pdf ->Ln(1);
    // $pdf -> SetX(90);
    // $pdf -> SetFontSize(8);
@@ -410,28 +335,9 @@ if($_POST){
     $pdf -> Cell(65,10, 'Extent of the land                             :', 0, 0, 'L');
     $pdf -> SetX(90);
 
-    if($inves=='Rs.2,500,000'){
-
         $pdf -> SetX(90);
-        $pdf -> Cell(100,10, $exland1, 0, 0, 'L');
-        }
-        elseif($inves=='Rs.5,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $exland2, 0, 0, 'L');   
-    
-        }
-        elseif($inves=='Rs.7,500,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $exland3, 0, 0, 'L');  
-        }
-        elseif($inves=='Rs.10,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $exland4, 0, 0, 'L');
-        }
-        elseif($inves=='Rs.20,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $exland5, 0, 0, 'L');
-        }
+        $pdf -> Cell(100,10, $exland, 0, 0, 'L');
+        
 
   //  $pdf -> Cell(100,10, $ben3, 0, 0, 'L');
    // $pdf -> SetFontSize(8);
@@ -453,62 +359,11 @@ if($_POST){
     $pdf -> Cell(65,10, 'No. of Vanilla Plants allocated      :', 0, 0, 'L');
     $pdf -> SetX(90);
 
-    if($inves=='Rs.2,500,000'){
+    
 
         $pdf -> SetX(90);
-        $pdf -> Cell(100,10, $vanplantnum1, 0, 0, 'L');
-        }
-        elseif($inves=='Rs.5,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $vanplantnum2, 0, 0, 'L');   
-    
-        }
-        elseif($inves=='Rs.7,500,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $vanplantnum3, 0, 0, 'L');  
-        }
-        elseif($inves=='Rs.10,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $vanplantnum4, 0, 0, 'L');
-        }
-        elseif($inves=='Rs.20,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $vanplantnum5, 0, 0, 'L');
-        }
-
-   // $pdf -> Cell(50,10, $exland, 0, 0, 'L');
-    $pdf -> Ln(5);
-    $pdf -> Cell(190,10, '________________________________________________________________________________________________', 0, 0, 'C');
-    $pdf->Ln(10);
-
-    // Land Reservation Amount
-    $pdf -> SetX(25);
-    $pdf -> SetFontSize(10);
-    $pdf -> Cell(65,10, 'Land Reservation Amount              :', 0, 0, 'L');
-    $pdf -> SetX(90);
-
-    if($inves=='Rs.2,500,000'){
-
-        $pdf -> SetX(90);
-        $pdf -> Cell(100,10, $lra1, 0, 0, 'L');
-        }
-        elseif($inves=='Rs.5,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $lra2, 0, 0, 'L');   
-    
-        }
-        elseif($inves=='Rs.7,500,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $lra3, 0, 0, 'L');  
-        }
-        elseif($inves=='Rs.10,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $lra4, 0, 0, 'L');
-        }
-        elseif($inves=='Rs.20,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $lra5, 0, 0, 'L');
-        }
+        $pdf -> Cell(100,10, $vanplantnum, 0, 0, 'L');
+        
 
   //  $pdf -> Cell(50,10, $vanplantnum, 0, 0, 'L');
     $pdf -> Ln(5);
@@ -521,59 +376,10 @@ if($_POST){
     $pdf -> Cell(65,10, 'Security                                               :', 0, 0, 'L');
     $pdf -> SetX(90);
     $pdf -> SetFontSize(8);
-
-    if($inves=='Rs.2,500,000'){
-
-        $pdf -> SetX(90);
-        $pdf -> Cell(100,10, $security1w1, 0, 0, 'L');
-        $pdf -> Ln(3);
-        $pdf -> SetX(90);
-        $pdf -> Cell(100,10, $security1w2, 0, 0, 'L');
-        $pdf -> Ln(3);
-        $pdf -> SetX(90);
-        $pdf -> Cell(100,10, $security1w3, 0, 0, 'L');
-        }
-        elseif($inves=='Rs.5,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $security2w1, 0, 0, 'L');
-            $pdf -> Ln(3);
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $security1w2, 0, 0, 'L');
-            $pdf -> Ln(3);
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $security1w3, 0, 0, 'L');   
-    
-        }
-        elseif($inves=='Rs.7,500,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $security3w1, 0, 0, 'L');
-            $pdf -> Ln(3);
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $security1w2, 0, 0, 'L');
-            $pdf -> Ln(3);
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $security1w3, 0, 0, 'L');  
-        }
-        elseif($inves=='Rs.10,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $security4w1, 0, 0, 'L');
-            $pdf -> Ln(3);
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $security1w2, 0, 0, 'L');
-            $pdf -> Ln(3);
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $security1w3, 0, 0, 'L');
-        }
-        elseif($inves=='Rs.20,000,000'){
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $security5w1, 0, 0, 'L');
-            $pdf -> Ln(3);
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $security1w2, 0, 0, 'L');
-            $pdf -> Ln(3);
-            $pdf -> SetX(90);
-            $pdf -> Cell(100,10, $security1w3, 0, 0, 'L');
-        }
+    $pdf -> Cell(100,10, $security, 0, 0, 'L');
+    $pdf ->Ln(1);
+    $pdf -> SetX(90);
+    $pdf -> Cell(100,15, $security2, 0, 0, 'L');
 
    // $pdf -> Cell(100,10, $security, 0, 0, 'L');
     //$pdf ->Ln(1);
@@ -643,112 +449,33 @@ if($_POST){
     $pdf -> SetX(20);
     $pdf -> Cell(15,10, '1', 1, 1, 'C');
 
-    if($inves=='Rs.2,500,000'){ 
+    
 
     $pdf -> SetY(20);
     $pdf -> SetX(35);
-    $pdf -> Cell(40,10, 'Rs. 2,500,000/-(one time)', 1, 1, 'C');
+    $pdf -> Cell(40,10, 'Rs. 281,244/-', 1, 1, 'C');
     $pdf -> SetY(20);
     $pdf -> SetX(75);
-    $pdf -> Cell(40,10, 'Rs. 2,500,000/-', 1, 1, 'C');
+    $pdf -> Cell(40,10, 'Rs. 281,244/-', 1, 1, 'C');
     $pdf -> SetY(20);
     $pdf -> SetX(115);
-    $pdf -> Cell(40,10, 'Rs. 72,916/- X 12', 1, 1, 'C');
+    $pdf -> Cell(40,10, 'Nil', 1, 1, 'C');
     $pdf -> SetY(20);
     $pdf -> SetX(155);
     $pdf -> Cell(40,10, 'Nil', 1, 1, 'C');
-    }
-    elseif($inves=='Rs.5,000,000'){
-        $pdf -> SetY(20);
-        $pdf -> SetX(35);
-        $pdf -> Cell(40,10, 'Rs. 5,000,000/-(one time)', 1, 1, 'C');
-        $pdf -> SetY(20);
-        $pdf -> SetX(75);
-        $pdf -> Cell(40,10, 'Rs. 5,000,000/-', 1, 1, 'C');
-        $pdf -> SetY(20);
-        $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 145,832/- X 12', 1, 1, 'C');
-        $pdf -> SetY(20);
-        $pdf -> SetX(155);
-        $pdf -> Cell(40,10, 'Nil', 1, 1, 'C');  
-    }
-    elseif($inves=='Rs.7,500,000'){
-        $pdf -> SetY(20);
-        $pdf -> SetX(35);
-        $pdf -> Cell(40,10, 'Rs. 7,500,000/-(one time)', 1, 1, 'C');
-        $pdf -> SetY(20);
-        $pdf -> SetX(75);
-        $pdf -> Cell(40,10, 'Rs. 7,500,000', 1, 1, 'C');
-        $pdf -> SetY(20);
-        $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 218,750/- X 12', 1, 1, 'C');
-        $pdf -> SetY(20);
-        $pdf -> SetX(155);
-        $pdf -> Cell(40,10, 'Nil', 1, 1, 'C');
-    }
-    elseif($inves=='Rs.10,000,000'){
-        $pdf -> SetY(20);
-        $pdf -> SetX(35);
-        $pdf -> Cell(40,10, 'Rs. 10,000,000/-(one time)', 1, 1, 'C');
-        $pdf -> SetY(20);
-        $pdf -> SetX(75);
-        $pdf -> Cell(40,10, 'Rs. 10,000,000', 1, 1, 'C');
-        $pdf -> SetY(20);
-        $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 291,666/- X 12', 1, 1, 'C');
-        $pdf -> SetY(20);
-        $pdf -> SetX(155);
-        $pdf -> Cell(40,10, 'Nil', 1, 1, 'C');
-    }
-    elseif($inves=='Rs.20,000,000'){
-        $pdf -> SetY(20);
-        $pdf -> SetX(35);
-        $pdf -> Cell(40,10, 'Rs. 20,000,000/-(one time)', 1, 1, 'C');
-        $pdf -> SetY(20);
-        $pdf -> SetX(75);
-        $pdf -> Cell(40,10, 'Rs. 20,000,000', 1, 1, 'C');
-        $pdf -> SetY(20);
-        $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 583,333/- X 12', 1, 1, 'C');
-        $pdf -> SetY(20);
-        $pdf -> SetX(155);
-        $pdf -> Cell(40,10, 'Nil', 1, 1, 'C');
-    }
+   
     $pdf -> SetX(20);
     $pdf -> Cell(15,10, '2', 1, 1, 'C');
     $pdf -> SetY(30);
     $pdf -> SetX(35);
-    $pdf -> Cell(40,10, '', 1, 1, 'C');
+    $pdf -> Cell(40,10, 'Rs. 281,244/-', 1, 1, 'C');
     $pdf -> SetY(30);
     $pdf -> SetX(75);
-    $pdf -> Cell(40,10, '', 1, 1, 'C');
-
-    if($inves=='Rs.2,500,000'){
+    $pdf -> Cell(40,10, 'Rs. 562,488/-', 1, 1, 'C');
 
     $pdf -> SetY(30);
     $pdf -> SetX(115);
-    $pdf -> Cell(40,10, 'Rs. 72,916/- X 12', 1, 1, 'C');
-    }
-    elseif($inves=='Rs.5,000,000'){
-        $pdf -> SetY(30);
-        $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 145,832/- X 12', 1, 1, 'C'); 
-    }
-    elseif($inves=='Rs.7,500,000'){
-        $pdf -> SetY(30);
-        $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 218,750/- X 12', 1, 1, 'C');
-    }
-    elseif($inves=='Rs.10,000,000'){
-        $pdf -> SetY(30);
-        $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 291,666/- X 12', 1, 1, 'C');
-    }
-    elseif($inves=='Rs.20,000,000'){
-        $pdf -> SetY(30);
-        $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 583,333/- X 12', 1, 1, 'C');
-    }
+    $pdf -> Cell(40,10, 'Nil', 1, 1, 'C');
     $pdf -> SetY(30);
     $pdf -> SetX(155);
     $pdf -> Cell(40,10, 'Nil', 1, 1, 'C');
@@ -758,36 +485,15 @@ if($_POST){
     $pdf -> Cell(15,10, '3', 1, 1, 'C');
     $pdf -> SetY(40);
     $pdf -> SetX(35);
-    $pdf -> Cell(40,10, '', 1, 1, 'C');
+    $pdf -> Cell(40,10, 'Rs. 281,244/-', 1, 1, 'C');
     $pdf -> SetY(40);
     $pdf -> SetX(75);
-    $pdf -> Cell(40,10, '', 1, 1, 'C');
-    if($inves=='Rs.2,500,000'){
+    $pdf -> Cell(40,10, 'Rs. 843,732/-', 1, 1, 'C');
 
         $pdf -> SetY(40);
         $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 72,916/- X 12', 1, 1, 'C');
-    }
-    elseif($inves=='Rs.5,000,000'){
-        $pdf -> SetY(40);
-        $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 145,832/- X 12', 1, 1, 'C'); 
-    }
-    elseif($inves=='Rs.7,500,000'){
-        $pdf -> SetY(40);
-        $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 218,750/- X 12', 1, 1, 'C');
-    }
-    elseif($inves=='Rs.10,000,000'){
-        $pdf -> SetY(40);
-        $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 291,666/- X 12', 1, 1, 'C');
-    }
-    elseif($inves=='Rs.20,000,000'){
-        $pdf -> SetY(40);
-        $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 583,333/- X 12', 1, 1, 'C');
-    }
+        $pdf -> Cell(40,10, 'Nil', 1, 1, 'C');
+   
     $pdf -> SetY(40);
     $pdf -> SetX(155);
     $pdf -> Cell(40,10, 'Nil', 1, 1, 'C');
@@ -802,32 +508,10 @@ if($_POST){
     $pdf -> SetX(75);
     $pdf -> Cell(40,10, '', 1, 1, 'C');
 
-    if($inves=='Rs.2,500,000'){
-
         $pdf -> SetY(50);
         $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 72,916/- X 12', 1, 1, 'C');
-        }
-        elseif($inves=='Rs.5,000,000'){
-            $pdf -> SetY(50);
-            $pdf -> SetX(115);
-            $pdf -> Cell(40,10, 'Rs. 145,832/- X 12', 1, 1, 'C'); 
-        }
-        elseif($inves=='Rs.7,500,000'){
-            $pdf -> SetY(50);
-            $pdf -> SetX(115);
-            $pdf -> Cell(40,10, 'Rs. 218,750/- X 12', 1, 1, 'C');
-        }
-        elseif($inves=='Rs.10,000,000'){
-            $pdf -> SetY(50);
-            $pdf -> SetX(115);
-            $pdf -> Cell(40,10, 'Rs. 291,666/- X 12', 1, 1, 'C');
-        }
-        elseif($inves=='Rs.20,000,000'){
-            $pdf -> SetY(50);
-            $pdf -> SetX(115);
-            $pdf -> Cell(40,10, 'Rs. 583,333/- X 12', 1, 1, 'C');
-        }
+        $pdf -> Cell(40,10, 'Nil', 1, 1, 'C');
+        
     $pdf -> SetY(50);
     $pdf -> SetX(155);
     $pdf -> Cell(40,10, 'Nil', 1, 1, 'C');
@@ -843,35 +527,15 @@ if($_POST){
     $pdf -> Cell(40,10, '', 1, 1, 'C');
     $pdf -> SetY(60);
     $pdf -> SetX(115);
-    if($inves=='Rs.2,500,000'){
+    
 
         $pdf -> SetY(60);
         $pdf -> SetX(115);
-        $pdf -> Cell(40,10, 'Rs. 72,916/- X 12', 1, 1, 'C');
-        }
-        elseif($inves=='Rs.5,000,000'){
-            $pdf -> SetY(60);
-            $pdf -> SetX(115);
-            $pdf -> Cell(40,10, 'Rs. 145,832/- X 12', 1, 1, 'C'); 
-        }
-        elseif($inves=='Rs.7,500,000'){
-            $pdf -> SetY(60);
-            $pdf -> SetX(115);
-            $pdf -> Cell(40,10, 'Rs. 218,750/- X 12', 1, 1, 'C');
-        }
-        elseif($inves=='Rs.10,000,000'){
-            $pdf -> SetY(60);
-            $pdf -> SetX(115);
-            $pdf -> Cell(40,10, 'Rs. 291,666/- X 12', 1, 1, 'C');
-        }
-        elseif($inves=='Rs.20,000,000'){
-            $pdf -> SetY(60);
-            $pdf -> SetX(115);
-            $pdf -> Cell(40,10, 'Rs. 583,333/- X 12', 1, 1, 'C');
-        }
+        $pdf -> Cell(40,10, 'Rs. 1,476,562.50', 1, 1, 'C');
+       
     $pdf -> SetY(60);
     $pdf -> SetX(155);
-    $pdf -> Cell(40,10, 'Nil', 1, 1, 'C');
+    $pdf -> Cell(40,10, 'Rs. 2,800,000', 1, 1, 'C');
     
 
     $pdf -> SetX(20);
@@ -884,34 +548,31 @@ if($_POST){
     $pdf -> Cell(40,10, '', 1, 1, 'C');
     $pdf -> SetY(70);
     $pdf -> SetX(115);
-    $pdf -> Cell(40,10, '-', 1, 1, 'C');
+    $pdf -> Cell(40,10, 'Rs. 1,687,500', 1, 1, 'C');
 
 
-    if($inves=='Rs.2,500,000'){
+    
     $pdf -> SetY(70);
     $pdf -> SetX(155);
-    $pdf -> Cell(40,10, 'Rs.2,500,000/-', 1, 1, 'C');
-    }
-    elseif($inves=='Rs.5,000,000'){
-        $pdf -> SetY(70);
-        $pdf -> SetX(155);
-        $pdf -> Cell(40,10, 'Rs.5,000,000/-', 1, 1, 'C'); 
-    }
-    elseif($inves=='Rs.7,500,000'){
-        $pdf -> SetY(70);
-        $pdf -> SetX(155);
-        $pdf -> Cell(40,10, 'Rs.7,500,000/-', 1, 1, 'C');
-    }
-    elseif($inves=='Rs.10,000,000'){
-        $pdf -> SetY(70);
-        $pdf -> SetX(155);
-        $pdf -> Cell(40,10, 'Rs.10,000,000/-', 1, 1, 'C');
-    }
-    elseif($inves=='Rs.20,000,000'){
-        $pdf -> SetY(70);
-        $pdf -> SetX(155);
-        $pdf -> Cell(40,10, 'Rs.20,000,000/-', 1, 1, 'C');
-    }
+    $pdf -> Cell(40,10, 'Rs.3,200,000/-', 1, 1, 'C');
+
+
+    $pdf -> SetX(20);
+    $pdf -> Cell(15,10, '7', 1, 1, 'C');
+    $pdf -> SetY(80);
+    $pdf -> SetX(35);
+    $pdf -> Cell(40,10, '', 1, 1, 'C');
+    $pdf -> SetY(80);
+    $pdf -> SetX(75);
+    $pdf -> Cell(40,10, '', 1, 1, 'C');
+    $pdf -> SetY(80);
+    $pdf -> SetX(115);
+    $pdf -> Cell(40,10, 'Rs. 2,109,375', 1, 1, 'C');
+    $pdf -> SetY(80);
+    $pdf -> SetX(155);
+    $pdf -> Cell(40,10, 'Rs.4,000,000/-', 1, 1, 'C');
+
+    
 
     $pdf -> Ln(10);
     $pdf -> SetFontSize(8);
@@ -1034,35 +695,26 @@ input[type="submit"]:hover{
     </Style>
 </head>
 <body>
-    <div class="main-block">
+<div class="main-block">
         <div class="header">
             <img src="logo.png"><br>
             Green Gold Harvest Plan QUOTATION
         </div>
         <div class="body">
-        <form action='' method="POST">
+            <form action='' method="POST">
                 <input type="text" name="fname" placeholder="Full Name" required>
                 <input type="text" name="iname" placeholder="Name with Inisials" required>
                 <input type="text" name="address" placeholder="Address" required>
                 <input type="text" name="nic" placeholder="NIC No" required>
                 <input type="text" name="ben" placeholder="Name of Beneficiary" required>
-            
-             <!-------form (Name with Initials)------>
-             
-             <select name="inves" class="form-control selectpicker" required>
-                 <option value="" >--Select Total Investment--</option>
-                    <option>Rs.2,500,000</option>
-                    <option>Rs.5,000,000</option>
-                    <option >Rs.7,500,000</option>
-                    <option >Rs.10,000,000</option>
-                    <option >Rs.20,000,000</option>
-            </select>
-            
-            <br>
-                <input type="submit" value="Create Quotation">    
-                </form><br>
-                <a href="index.php"><button class="btn btn-primary">Back</button></a>
+                <input type="submit" value="Create Quotation">
+            </form><br>
+                <a href="index.php"><button type="button" class="btn btn-primary btn-lg">Back</button></a>
         </div>
+        <div class="footer">
+            <p><a href="https://agroventuresplantations.com">Agro Ventures Plantations LTD</a></p>
+        </div>
+    </div>
         <div class="footer">
             
             <p><a href="https://agroventuresplantations.com">Agro Ventures Plantations LTD</a></p>
