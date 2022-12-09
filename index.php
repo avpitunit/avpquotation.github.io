@@ -182,6 +182,7 @@ button {
         <div class="frame">
         <a href="passive_income.php"><button class="custom-btn btn-11"><h3>Agro Ventures Passive Income Plan</h3></button></a><br>
         <a href="triple_benefit.php"><button class="custom-btn btn-11"><h3>Agro Triple Benefit</h3></button></a>
+        <a href="green_gold.php"><button class="custom-btn btn-11"><h3>Green Gold Harvest Plan</h3></button></a>
         </div>
 </div>
         <div class="footer">
